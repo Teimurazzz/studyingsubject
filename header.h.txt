@@ -1,0 +1,18 @@
+
+struct student{
+	char *name_of_student;
+	char *surname_of_student;
+	char *dadname;
+	int course;
+	int mark_for_subject;
+}
+
+struct subject{
+	char *name_of_subject;
+	char *name_of_teacher;
+	char *surname_of_teacher;
+	
+
+}
+
+char* validation(char *name);

@@ -1,0 +1,28 @@
+#include header.h
+
+
+char* validation(char *name){
+	bool fail = true;
+	while(fail){
+		cin << name;
+		if(strlen(name) < 1 || strlen(name) >=20)
+			cout << Incorrect input,try again";
+		else fail = false;
+	}
+	return name;
+}
+
+
+
+
+
+
+
+void main(void){
+
+
+}
+
+	
+
+

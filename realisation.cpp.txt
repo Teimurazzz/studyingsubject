@@ -12,6 +12,14 @@ char* validation(char *name){
 	return name;
 }
 
+int get_mark(student *ptr_student, subject *ptr_subject){
+	студент отримує оцінку;
+}
+
+void studying(student *pointer_student, subject *pointer_subject){
+	студент вчить предмет;
+}
+
 
 
 

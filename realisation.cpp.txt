@@ -16,11 +16,35 @@ char* validation(char *name){
 
 
 
-
-
 void main(void){
+	pointer_on_student = new student;
+	pointer_on_student->name = new char[size];
+	pointer_on_student->surname = new char[size];
+	pointer_on_student->dadname = new char[size];
+	
+	
+	cout << "Program for renovation at faculty of applied mathematic nice to meet you";
+	cout << "Enter your name";
+	validation(pointer_on_student->name);
+	
+
+	cout << "Enter your surname";
+	validation(pointer_on_student->surname);
 
 
+	cout << "Enter your dadname";
+	validation(pointer_on_student->dadname);
+	
+
+	cout << "Enter your course";
+	bool fail_c = true;
+	while(fail_c){
+		cin >> pointer_on_student->course;
+		if(pointer_on_student->course < 1 || pointer_on_student->course > 6)
+			cout << "Incorrect input, try again";
+		else fail_c = false;
+	}
+	
 }
 
 	

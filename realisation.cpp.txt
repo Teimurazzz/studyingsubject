@@ -15,7 +15,6 @@ char* validation(char *name){
 
 
 
-
 void main(void){
 	pointer_on_student = new student;
 	pointer_on_student->name = new char[size];

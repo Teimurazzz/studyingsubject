@@ -2,7 +2,6 @@
 struct student{
 	char *name_of_student;
 	char *surname_of_student;
-	char *dadname;
 	int course = 0;
 }
 
@@ -17,4 +16,7 @@ student *pointer_on_student;
 subject *pointer_on_subject;
 
 char* validation(char *name);
+
 int get_mark(student *ptr_student, subject *ptr_subject);
+
+void studying(student *pointer_student, subject *pointer_subject);
